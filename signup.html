@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body {background-color:lightgreen;}
+form{
+padding-top: 20px;
+text-align: center;
+font-size: 20px;
+}
+input{
+width: 200px;
+height: 30px;
+font-size: 20px;
+}
+</style>
+</head>
+<body>
+<fieldset>
+<center><legend style="font-size:30px";>SIGN UP</legend></center>
+<form action="submit.html"><pre>
+      First Name: <input type="text" name="username" required autocomplete="off"><br>
+       Last Name: <input type="text" name="username" required autocomplete="off"><br>
+       E-Mail ID: <input type="email" id="email" name="email" required autocomplete="off"><br>
+        Password: <input type="password" name="password" required autocomplete="off"><br>
+Re-Type Password: <input type="password" name="password" required autocomplete="off"><br>
+  Gender: <input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value="female">Female<br>
+            <input type="radio" name="gender" value="others">Others<br>
+       Phone no:  <input type="tel" placeholder="type 10 digits" pattern="[0-9]{10}" autocomplete="off"><br>
+          Address:  <textarea name="address" style="font-size:20px"; rows="5" cols="30" autocomplete="off"></textarea><br><br></pre>
+<input type="reset" value="Reset" name="reset">
+<input type="submit" value="Submit"><br>
+<center><h4>Do you have already an account? <span><a href=login.html>Login</a></h4></center>
+</fieldset>
+</form>
+</body>
+</html>
